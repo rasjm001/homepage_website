@@ -1,3 +1,19 @@
+.article_one{
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.subheading{
+  margin-left: 75px;
+}
+
+#article_one{
+  text-align: center;
+}
+
+
+
 #header_text{
 text-align: center;
 }
@@ -41,9 +57,6 @@ body{
   .topnav .icon {
     display: none;
   }
-
-
-
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

@@ -17,19 +17,36 @@
     <!--Top navigation bar-->
     <div class="topnav" id="myTopnav">
         <a href="../HomePage/main_html.html" class="active">Home</a> 
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
         <a href="../project_one_simple_tutorial/index.html"> Bouncing Balls </a>
-        <a href="../whack_a_mole/index.html"> Demo 1 </a>
-        <a href="../SimpleGame/Index.html"> Demo 2</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="../whack_a_mole/index.html"> Whack a Mole </a>
+        <a href="../SimpleGame/Index.html"> Defence Game </a>
+        <!-- <a href="../Demo_3/Index.html"> Demo_3</a> -->
+        <a href ="../Capstone Project 1/capstone_project.html"> Capstone Project</a>
+        <a href="javascript:void(0);" class="icon" onclick="topbar_navigation_function()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
 
 
     <h1 id = "header_text">hello</h1>
-    
+
+    <div class = "article_one" id="my_article_one">
+        <h2 class="subheading"> template literal</h2>
+    <p> //Random colour generator for JS (using template literal)
+      const colour = `hsl(${Math.random() *360}, 50%, 50%)` </p>
+    <h2>
+      use setTimeout to prevent flashing of objcets when deleted
+    </h2>
+
+    <p>setTimeout(() => {
+      //take the enemy out of the enemy array at the index of the array
+      enemy_array.splice(index, 1);
+
+      //take the projectile out of the projectile array at the projectile's index.
+      projectiles_array.splice(projectile_index, 1);
+    </div>
+  
+
+  }, 0)</p>
 </body>
 </html>
